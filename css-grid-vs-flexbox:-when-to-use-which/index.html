@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CSS Grid vs Flexbox</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #1d4a6b;
+      color: white;
+      max-width: 800px;
+      margin: auto;
+      padding: 40px 20px;
+      line-height: 1.6;
+    }
+    h1 {
+      font-size: 2.5em;
+    }
+    img {
+      width: 100%;
+      border-radius: 10px;
+      margin: 30px 0;
+    }
+    pre {
+      background: #333;
+      padding: 15px;
+      border-radius: 8px;
+      overflow-x: auto;
+    }
+    a {
+      color: #ffd54f;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h1>CSS Grid vs Flexbox: When to Use Which</h1>
+  <img src="https://picsum.photos/800/400?grayscale&random=15" alt="CSS Layouts" />
+  <p>
+    CSS Grid and Flexbox are two powerful layout systems. Each excels in different use cases. Learn their strengths to choose the right one.
+  </p>
+  <h2>Use Flexbox When</h2>
+  <ul>
+    <li>You're laying out items in a row or column.</li>
+    <li>You need alignment and spacing between items.</li>
+  </ul>
+
+  <h2>Use Grid When</h2>
+  <ul>
+    <li>You need two-dimensional layouts (rows + columns).</li>
+    <li>You're designing complex page structures.</li>
+  </ul>
+
+  <h2>Example Grid Layout</h2>
+  <pre><code>.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}</code></pre>
+
+  <p>Both tools are essential — the key is knowing when to use which.</p>
+</body>
+</html>
