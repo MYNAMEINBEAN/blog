@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Debugging Techniques for JavaScript</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #1d4a6b;
+      color: white;
+      max-width: 800px;
+      margin: auto;
+      padding: 40px 20px;
+      line-height: 1.6;
+    }
+    h1 {
+      font-size: 2.5em;
+    }
+    img {
+      width: 100%;
+      border-radius: 10px;
+      margin: 30px 0;
+    }
+    pre {
+      background: #333;
+      padding: 15px;
+      border-radius: 8px;
+      overflow-x: auto;
+    }
+    a {
+      color: #ffd54f;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h1>Debugging Techniques for JavaScript</h1>
+  <img src="https://picsum.photos/800/400?grayscale&random=13" alt="Debugging JavaScript" />
+  <p>
+    Debugging is a crucial skill for developers. It involves identifying, isolating, and fixing issues in your code to ensure everything runs smoothly.
+  </p>
+  <h2>Popular Debugging Methods</h2>
+  <ul>
+    <li><strong>Console Logging:</strong> The simplest method using <code>console.log()</code>.</li>
+    <li><strong>Browser DevTools:</strong> Use breakpoints and step through code in Chrome or Firefox.</li>
+    <li><strong>Linting Tools:</strong> Catch issues early with ESLint or JSHint.</li>
+    <li><strong>Try/Catch Blocks:</strong> Gracefully handle runtime errors.</li>
+  </ul>
+  <h2>Example</h2>
+  <pre><code>try {
+  riskyFunction();
+} catch (error) {
+  console.error('Caught an error:', error);
+}</code></pre>
+  <p>
+    Combine tools and techniques for the most efficient debugging experience.
+  </p>
+</body>
+</html>
